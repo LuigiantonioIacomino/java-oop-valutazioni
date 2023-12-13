@@ -16,4 +16,12 @@ public class Corso {
         }
     }
 
+    public void addStudent(Studente student) {
+        listStudent.add(student);
+    }
+
+    public void removeStudent(Studente student) {
+        listStudent.remove(student);
+    }
+
 }
